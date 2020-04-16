@@ -18,7 +18,11 @@ flutter:
 dependencies:
   meta: "^1.0.5"
   video_player_platform_interface:
-    path: ../video_player_platform_interface
+    git:
+      url: git://github.com/skanmera/plugins.git
+      ref: video_player/feature/speed_changing
+      path: packages/video_player/video_player_platform_interface
+
   # The design on https://flutter.dev/go/federated-plugins was to leave
   # this constraint as "any". We cannot do it right now as it fails pub publish
   # validation, so we set a ^ constraint.
