@@ -381,7 +381,8 @@ static inline CGFloat radiansToDegrees(CGFloat radians) {
                                  message:@"This video cannot be played slow forward"
                                  details:nil]);
     }
- }
+  }
+}
 
 
 - (CVPixelBufferRef)copyPixelBuffer {
