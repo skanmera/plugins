@@ -16,7 +16,11 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   meta: ^1.1.7
-  video_player_platform_interface: ^1.0.0
+  video_player_platform_interface:
+    git:
+      url: git://github.com/skanmera/plugins.git
+      ref: video_player/feature/speed_changing
+      path: packages/video_player/video_player_platform_interface
 
 dev_dependencies:
   flutter_test:
